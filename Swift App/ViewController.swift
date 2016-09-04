@@ -3,8 +3,9 @@
 //  Swift App
 //
 //  Created by Kurt Peeters on 4/09/16.
-//  Copyright © 2016 Kurt Peeters. All rights reserved.
-//
+//  Copyright © 2016 Kurt Peeters. All rights reserved...
+//😜
+
 
 import UIKit
 
@@ -19,8 +20,8 @@ class ViewController: UIViewController {
         
        tapcount = tapcount + 1
         
-        if tapcount >= 10 {
-            coolLabel.text = "10 keer gedrukt"
+        if tapcount >= 20 {
+            coolLabel.text = "20 keer gedrukt"
             }
         
     }
