@@ -10,9 +10,25 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var coolLabel: UILabel!
+    
+    var tapcount = 0
+    
+    @IBAction func buttontapped(_ sender: AnyObject) {
+        
+       tapcount = tapcount + 1
+        
+        if tapcount >= 10 {
+            coolLabel.text = "10 keer gedrukt"
+            }
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
